@@ -1,0 +1,29 @@
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* BRAND */
+/* .navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+    color: rgba(255,255,255,.8);
+} */
+/* NAVLINKS */
+
+.navbar-light {
+    letter-spacing: 0.3rem;
+    margin:25px;
+
+}
+
+.button-custom {
+  background: black;
+  color:white;
+  padding:1rem;
+  border:1px solid white;
+  text-decoration: none;
+}
+
+.button-custom:hover {
+  color:white;
+  text-decoration: none;
+}

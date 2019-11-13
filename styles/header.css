@@ -1,4 +1,6 @@
-body{
+html body{
+  width: 100%;
+  height:100%;
   font-family: 'Montserrat', sans-serif;
 }
 
@@ -19,28 +21,90 @@ body{
   background: black;
   color:white;
   padding:1rem;
-  border:1px solid white;
+  border:none;
+  border-radius: 4px;
   text-decoration: none;
+  box-shadow: 1px 1px 1px black;
+  transition: 0.8 cubic-bezier(0.2,1,0.2, 1);
 }
 
 .button-custom:hover {
   color:white;
   text-decoration: none;
+  transform: translateY(-5px);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.25)
 }
 
 
 .synedrio{
-/* background:url('https://images.unsplash.com/photo-1483871788521-4f224a86e166?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2689&q=80');
-background-position:
-z-index: 0;
-height: 70%;
-width:100%; */
+
+  background:url('https://images.unsplash.com/photo-1483871788521-4f224a86e166?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2689&q=80');
+  background-repeat: no-repeat;
+  background-position: center;
+  height:auto;
+  background-size: cover;
+  overflow: hidden;
+  width:100%;
+}
+.thematologia{
+  clip-path: polygon(
+  0 0, /* left top */
+  100% 0, /* right top */
+  100% 100%, /* right bottom */
+  0 90% /* left bottom */
+);
+
+  background:url('https://images.unsplash.com/photo-1437034962079-eb527ac36d3d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2710&q=80');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: fill;
+  height:830px;
+  /* height:auto; */
+  width:100%;
+}
+.topothesia{
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: fill;
+  height:430px;
+  /* height:auto; */
+  width:100%;
+}
+.omilites{
+  margin-top:5rem;
+  margin-bottom:5rem;
+  height:auto;
+  width: 100%
 }
 .synedrio-inner{
-/* padding-top: 2rem;
-  /* background-color: white; */
-  /* z-index: 100; */ */
+padding:20px;
+margin-top:5rem;
+margin-bottom:5rem;
+background-color:rgba(199, 212, 202,0.6);
+height: auto;
+
 }
-.omilies{
-  padding:10rem;
+
+.par {
+  font-weight: 400;
+  font-size:1.3rem;
 }
+#map-pin{
+  font-size: 5rem;
+  color:gray;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.25)
+  transition: 0.8 cubic-bezier(0.2,1,0.2, 1);
+}
+#map-pin:hover{
+  color:red;
+}
+
+/* <div class="col-md-3 col-sm-12 m-1">
+  <div class="card" style="width: 18rem; border:none;">
+    <img style="height:27rem;" src="./1.jpg" class="card-img-top" alt="./1.jpg">
+    <div class="card-body">
+      <h5 class="card-title">Card title</h5>
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    </div>
+  </div>
+</div> */

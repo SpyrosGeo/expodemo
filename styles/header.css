@@ -4,6 +4,7 @@ html body{
   font-family: 'Montserrat', sans-serif;
 }
 
+
 /* BRAND */
 /* .navbar-custom .navbar-brand,
 .navbar-custom .navbar-text {
@@ -38,7 +39,16 @@ html body{
 
 .synedrio{
 
-  background:url('https://images.unsplash.com/photo-1483871788521-4f224a86e166?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2689&q=80');
+  background:url('../backgrounds/bk1.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  height:auto;
+  background-size: cover;
+  overflow: hidden;
+}
+.dioikisi{
+
+  background:url('../backgrounds/bk2.png');
   background-repeat: no-repeat;
   background-position: center;
   height:auto;
@@ -54,13 +64,23 @@ html body{
   0 90% /* left bottom */
 );
 
-  background:url('https://images.unsplash.com/photo-1437034962079-eb527ac36d3d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2710&q=80');
+  background:url('../backgrounds/bk2.png');
   background-repeat: no-repeat;
   background-position: center;
   background-size: fill;
   height:830px;
   /* height:auto; */
   width:100%;
+}
+.dioikisi li{
+  list-style: none;
+  font-weight: 400;
+  font-size:1.3rem;
+  /* text-align: center; */
+
+}
+.dioikisi h3 {
+  /* letter-spacing: 1.5rem; */
 }
 .topothesia{
   background-repeat: no-repeat;
@@ -80,11 +100,33 @@ html body{
 padding:20px;
 margin-top:5rem;
 margin-bottom:5rem;
-background-color:rgba(199, 212, 202,0.6);
+background-color:rgba(199, 212, 202,0.8);
 height: auto;
 
 }
+.dioikisi-inner{
+padding:20px;
+margin-top:5rem;
+margin-bottom:5rem;
+background-color:rgba(199, 212, 202,0.8);
+height: auto;
 
+}
+.meli p {
+font-size: 12px;
+/* border:1px solid black; */
+background-color:rgba(199, 212, 202,0.3);
+padding: 5px;
+width:100%;
+box-shadow: 0 15px 30px rgba(0, 0, 0, 0.25)
+
+transition: 0.8 cubic-bezier(0.2,1,0.2, 1);
+}
+.meli p:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.25)
+
+}
 .par {
   font-weight: 400;
   font-size:1.3rem;

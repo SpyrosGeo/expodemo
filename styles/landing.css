@@ -5,9 +5,7 @@ html body{
   background-image: url(../slideshow/bk0.png)
 
 }
-a {
-  text-dexc
-}
+
 .landing-header {
   z-index: 1;
   position: relative;
@@ -23,16 +21,23 @@ color: white;
 }
 
 .landing-button  {
+  border:1px solid white;
   font-size: 3rem;
-  background: black;
+  font-weight: 700;
+  background:rgba(92, 125, 94,0.75);
   color:white;
-  padding:1rem;
-  border:none;
+  padding:1rem 5rem 1rem;
   border-radius: 4px;
   text-decoration: none;
-  box-shadow: 1px 1px 1px black;
+  /* box-shadow: 1px 1px 1px black; */
   transition: 0.8 cubic-bezier(0.2,1,0.2, 1);
 }
+
+.landing-button:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.45)
+}
+
 .slideshow {
   position: fixed;
   width: 100%;

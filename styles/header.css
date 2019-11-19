@@ -129,7 +129,7 @@ html body{
   width: 100%
 }
 .synedrio-inner{
-padding:20px;
+margin:0 auto;
 margin-top:5rem;
 margin-bottom:5rem;
 background-color:rgba(199, 212, 202,0.8);

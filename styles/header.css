@@ -2,6 +2,7 @@ html body{
   width: 100%;
   height:100%;
   font-family: 'Montserrat', sans-serif;
+  overflow-x: hidden;
 }
 
 
@@ -17,9 +18,9 @@ html body{
   /* width:50rem; */
   background-color: rgba(92, 125, 94,0.6);
   /* border-top:1px solid black; */
-  font-size: 1.05rem;
+  font-size: 1rem;
     letter-spacing: 0.04rem;
-    margin-top:15px;
+    margin-top:25px;
 }
 .one:hover ~ .navBar-hr{
   opacity:1;
@@ -129,18 +130,17 @@ html body{
   width: 100%
 }
 .synedrio-inner{
-/* margin:0 auto; */
-/* margin-top:5rem; */
-/* margin-bottom:5rem; */
+padding:20px;
+margin-top:5rem;
+margin-bottom:5rem;
 background-color:rgba(199, 212, 202,0.8);
 height: auto;
 
 }
 .dioikisi-inner{
-/* padding:20px; */
+padding:20px;
 margin-top:5rem;
 margin-bottom:5rem;
-margin:0 auto;
 background-color:rgba(199, 212, 202,0.8);
 height: auto;
 

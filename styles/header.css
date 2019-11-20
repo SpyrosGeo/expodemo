@@ -172,6 +172,12 @@ transition: 0.8 cubic-bezier(0.2,1,0.2, 1);
   border:2px solid rgba(92, 125, 94,0.6);
 }
 
+.footer-expo{
+  background-color:black;
+  color:white;
+  height: 100px;
+  width:100%;
+}
 /* <div class="col-md-3 col-sm-12 m-1">
   <div class="card" style="width: 18rem; border:none;">
     <img style="height:27rem;" src="./1.jpg" class="card-img-top" alt="./1.jpg">

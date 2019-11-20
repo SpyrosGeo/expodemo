@@ -175,13 +175,17 @@ transition: 0.8 cubic-bezier(0.2,1,0.2, 1);
 
 #footer-head{
   padding:3px;
-  background-color:rgba(92, 125, 94,0.2);
+  background-color:rgba(92, 125, 94,0.4);
   letter-spacing: 0.5rem;
   color:black
 }
 .footer-p{
   font-size: 1.6rem;
 
+}
+.footer-pin{
+  color:#e63600;
+  font-size:1.2rem
 }
 .footer-sp{
   color:#6794db;

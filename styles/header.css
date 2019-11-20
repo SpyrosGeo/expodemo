@@ -16,7 +16,7 @@ html body{
 
 .navbar-light {
   /* width:50rem; */
-  background-color: rgba(92, 125, 94,0.6);
+  background-color: rgba(92, 125, 94,0.2);
   /* border-top:1px solid black; */
   font-size: 1rem;
     letter-spacing: 0.04rem;
@@ -97,11 +97,12 @@ html body{
   width:100%;
 }
 .dropdown-menu{
-  background-color: rgba(92, 125, 94,0.8);
+  background-color: rgba(92, 125, 94,0.4);
   border:none;
 
 }
 .dropdown:hover>.dropdown-menu {
+
   display: block;
 }
 .header-logo  {

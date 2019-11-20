@@ -172,11 +172,23 @@ transition: 0.8 cubic-bezier(0.2,1,0.2, 1);
   border:2px solid rgba(92, 125, 94,0.6);
 }
 
+
+#footer-head{
+  padding:3px;
+  background-color:rgba(92, 125, 94,0.2);
+  letter-spacing: 0.5rem;
+  color:black
+}
+.footer-p{
+  font-size: 1.6rem;
+
+}
+.footer-sp{
+  color:#6794db;
+  font-size:1.3rem;
+}
 .footer-expo{
-  background-color:black;
-  color:white;
-  height: 100px;
-  width:100%;
+
 }
 /* <div class="col-md-3 col-sm-12 m-1">
   <div class="card" style="width: 18rem; border:none;">
